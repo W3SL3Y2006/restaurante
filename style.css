@@ -77,6 +77,10 @@ body {
     /* text-decoration: underline; */
 }
 
+.hidden-desktop {
+    display: none;
+}
+
 .icon-menu {
     color: whitesmoke;
     font-size: 2rem;
@@ -408,6 +412,25 @@ body {
 
     .hidden { /* usaremos para esconder elementos */
         display: none;
+    }
+
+    .footer-box {
+        display: block;
+    }
+
+    .footer-left, .footer-right {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .footer-right {
+        text-align: left;
+        padding-left: 0;
+    }
+
+    .footer-media {
+        font-size: 2.5rem;
+        padding-right: 1.5rem;
     }
 }
     
